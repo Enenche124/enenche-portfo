@@ -2,15 +2,6 @@ import { useEffect, useState, useRef } from "react";
 import OtherSkills from "./OtherSkills";
 import { FaCode, FaDatabase, FaServer, FaCloud } from "react-icons/fa";
 
-const frontendSkills = [
-  { name: "React", level: 90, color: "bg-sky-600" },
-  { name: "TypeScript", level: 75, color: "bg-blue-500" },
-  { name: "Next.js", level: 90, color: "bg-neutral-800" },
-  { name: "Tailwind CSS", level: 95, color: "bg-cyan-500" },
-  { name: "JavaScript", level: 95, color: "bg-amber-500" },
-  { name: "Framer Motion", level: 65, color: "bg-rose-400" },
-];
-
 const backendSkills = [
   { name: "Java", level: 95, color: "bg-green-600" },
   { name: "Node.js", level: 85, color: "bg-slate-500" },
@@ -18,6 +9,15 @@ const backendSkills = [
   { name: "GraphQL", level: 50, color: "bg-fuchsia-500" },
   { name: "REST APIs", level: 95, color: "bg-orange-500" },
   { name: "Go", level: 90, color: "bg-blue-800" },
+];
+
+const frontendSkills = [
+  { name: "React", level: 80, color: "bg-sky-600" },
+  { name: "TypeScript", level: 70, color: "bg-blue-500" },
+  { name: "Next.js", level: 80, color: "bg-neutral-800" },
+  { name: "Tailwind CSS", level: 85, color: "bg-cyan-500" },
+  { name: "JavaScript", level: 85, color: "bg-amber-500" },
+  { name: "Framer Motion", level: 60, color: "bg-rose-400" },
 ];
 
 const dataBaseSkills = [
@@ -107,12 +107,27 @@ const Skills = () => {
         </h2>
 
         <p className="text-stone-300 max-w-2xl mx-auto text-sm sm:text-base mb-10">
-          These are the tools and technologies I use regularly to build
-          responsive web applications.
+          These are the tools and technologies I use regularly to build secure,
+          scalable, and high-performance applications.
         </p>
       </div>
 
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
+        <div className="bg-white rounded-2xl shadow-md p-6 md:p-8">
+          <h3 className="text-xl text-blue-600 font-semibold flex items-center gap-2 mb-3">
+            <FaServer className="text-red-500" />
+            Backend
+          </h3>
+          <p className="text-sm text-gray-500 mb-6">
+            Designing and optimizing secure, scalable backend services
+          </p>
+          <div className="space-y-4">
+            {backendSkills.map((skill, index) => (
+              <SkillBar key={index} skill={skill} animate={isInView} />
+            ))}
+          </div>
+        </div>
+
         <div className="bg-white rounded-2xl shadow-md p-6 md:p-8">
           <h3 className="text-xl text-blue-600 font-semibold flex items-center gap-2 mb-3">
             <FaCode className="text-yellow-500" />
@@ -123,21 +138,6 @@ const Skills = () => {
           </p>
           <div className="space-y-4">
             {frontendSkills.map((skill, index) => (
-              <SkillBar key={index} skill={skill} animate={isInView} />
-            ))}
-          </div>
-        </div>
-
-        <div className="bg-white rounded-2xl shadow-md p-6 md:p-8">
-          <h3 className="text-xl text-blue-600 font-semibold flex items-center gap-2 mb-3">
-            <FaServer className="text-red-500" />
-            Backend
-          </h3>
-          <p className="text-sm text-gray-500 mb-6">
-            Building robust server-side solutions
-          </p>
-          <div className="space-y-4">
-            {backendSkills.map((skill, index) => (
               <SkillBar key={index} skill={skill} animate={isInView} />
             ))}
           </div>

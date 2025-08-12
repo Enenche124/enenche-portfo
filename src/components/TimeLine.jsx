@@ -9,10 +9,10 @@ const TimeLine = () => {
     },
     {
       year: "2024",
-      title: "Dived Into Frontend",
+      title: "Dived Into Backend Development",
       taught: "Self-taught",
       description:
-        "Started learning React.js and Next.js, explored component-based architecture, state management with Redux and Context API, dynamic routing, and built several responsive web applications using Tailwind CSS and API integration.",
+        "Started learning Java and Python, explored API development with Spring Boot and FastAPI, implemented authentication with JWT, and worked with relational and NoSQL databases like PostgreSQL and MongoDB. Built several scalable backend services, integrated third-party APIs, and focused on writing clean, maintainable server-side code.",
     },
     {
       year: "2024",

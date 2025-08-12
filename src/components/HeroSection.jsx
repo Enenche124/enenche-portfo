@@ -33,9 +33,10 @@ const HeroSection = () => {
             variants={textVariant}
             className="text-stone-300 text-base sm:text-lg leading-relaxed hover:text-stone-100"
           >
-            I craft beautiful and functional web applications using modern
-            technologies always with a focus on clean design and exceptional
-            user experience.
+            I design and build scalable, high-performance applications with
+            clean architecture, efficient data handling, and seamless API
+            integrations — always aiming for reliability and a smooth user
+            experience.
           </motion.p>
 
           <motion.div
