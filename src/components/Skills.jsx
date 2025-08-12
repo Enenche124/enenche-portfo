@@ -1,40 +1,39 @@
 import { useEffect, useState, useRef } from "react";
 import OtherSkills from "./OtherSkills";
-import { FaCode, FaDatabase, FaServer, FaCloud } from "react-icons/fa"
+import { FaCode, FaDatabase, FaServer, FaCloud } from "react-icons/fa";
 
 const frontendSkills = [
-  { name: "React", level: 95, color: "bg-sky-600" },
-  { name: "TypeScript", level: 90, color: "bg-blue-500" },
-  { name: "Next.js", level: 85, color: "bg-neutral-800" },
-  { name: "Tailwind CSS", level: 99, color: "bg-cyan-500" },
-  { name: "JavaScript", level: 90, color: "bg-amber-500" },
-  { name: "Framer Motion", level: 80, color: "bg-rose-400" },
+  { name: "React", level: 90, color: "bg-sky-600" },
+  { name: "TypeScript", level: 75, color: "bg-blue-500" },
+  { name: "Next.js", level: 90, color: "bg-neutral-800" },
+  { name: "Tailwind CSS", level: 95, color: "bg-cyan-500" },
+  { name: "JavaScript", level: 95, color: "bg-amber-500" },
+  { name: "Framer Motion", level: 65, color: "bg-rose-400" },
 ];
 
 const backendSkills = [
-  { name: "Node.js", level: 90, color: "bg-green-600" },
-  { name: "Java", level: 80, color: "bg-slate-500" },
-  { name: "Python", level: 65, color: "bg-indigo-500" },
+  { name: "Java", level: 95, color: "bg-green-600" },
+  { name: "Node.js", level: 85, color: "bg-slate-500" },
+  { name: "Python", level: 90, color: "bg-indigo-500" },
   { name: "GraphQL", level: 50, color: "bg-fuchsia-500" },
-  { name: "REST APIs", level: 85, color: "bg-orange-500" },
-  { name: "Go", level: 65, color: "bg-blue-800"},
+  { name: "REST APIs", level: 95, color: "bg-orange-500" },
+  { name: "Go", level: 90, color: "bg-blue-800" },
 ];
 
 const dataBaseSkills = [
-  { name: "MongoDB", level: 90, color: "bg-emerald-600" },
-  { name: "Firebase", level: 90, color: "bg-yellow-500" },
-  { name: "Supabase", level: 100, color: "bg-lime-500" },
-  { name: "MySQL", level: 65, color: "bg-teal-500" },
+  { name: "MongoDB", level: 99, color: "bg-emerald-600" },
+  { name: "Firebase", level: 65, color: "bg-yellow-500" },
+  { name: "Supabase", level: 70, color: "bg-lime-500" },
+  { name: "MySQL", level: 90, color: "bg-teal-500" },
 ];
 
 const hostingSkills = [
   { name: "Netlify", level: 99, color: "bg-green-500" },
   { name: "Vercel", level: 100, color: "bg-zinc-800" },
-  { name: "Docker", level: 80, color: "bg-sky-500" },
-  { name: "Git", level: 90, color: "bg-red-500" },
+  { name: "Docker", level: 95, color: "bg-sky-500" },
+  { name: "Git", level: 95, color: "bg-red-500" },
   { name: "AWS", level: 80, color: "bg-orange-500" },
 ];
-
 
 const SkillBar = ({ skill, animate }) => {
   const [width, setWidth] = useState("0%");
@@ -108,7 +107,8 @@ const Skills = () => {
         </h2>
 
         <p className="text-stone-300 max-w-2xl mx-auto text-sm sm:text-base mb-10">
-          These are the tools and technologies I use regularly to build responsive web applications.
+          These are the tools and technologies I use regularly to build
+          responsive web applications.
         </p>
       </div>
 
@@ -179,7 +179,6 @@ const Skills = () => {
         <OtherSkills />
       </div>
     </section>
-
   );
 };
 

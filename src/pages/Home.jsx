@@ -5,7 +5,6 @@ import ProjectLists from "../components/ProjectLists";
 import About from "../components/About";
 import ContactMe from "../components/ContactMe";
 
-
 const Home = () => {
   return (
     <div className="px-2 md:px-10 py-2">

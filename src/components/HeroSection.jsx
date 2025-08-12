@@ -79,20 +79,20 @@ const HeroSection = () => {
             className="flex flex-wrap justify-center gap-3 text-sm sm:text-base font-mono"
           >
             <span className="bg-blue-500 text-white px-3 py-1 rounded-full">
-              React
+              Java
             </span>
             <span className="bg-gray-900 text-white px-3 py-1 rounded-full">
-              Next.js
+              Go
             </span>
             <span className="bg-green-700 text-white px-3 py-1 rounded-full">
-              Node.js
+              Python
             </span>
             <span className="bg-yellow-400 text-black px-3 py-1 rounded-full">
-              JavaScript
+              Node.js
             </span>
-            <span className="bg-blue-700 text-white px-3 py-1 rounded-full">
+            {/* <span className="bg-blue-700 text-white px-3 py-1 rounded-full">
               TypeScript
-            </span>
+            </span> */}
           </motion.div>
 
           <motion.div
