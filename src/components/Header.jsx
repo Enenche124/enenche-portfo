@@ -13,7 +13,7 @@ const Header = () => {
         href="#home"
         className="text-blue-600 text-base md:text-lg font-bold tracking-wide cursor-pointer whitespace-nowrap"
       >
-        &lt;/&gt; I_AM NICHOLAS
+        &lt;/&gt; I_AM ENENCHE JOHN
       </a>
 
       <div className="hidden md:flex">
@@ -34,7 +34,6 @@ const Header = () => {
           isOpen ? "translate-x-0" : "-translate-x-full"
         } md:hidden`}
       >
-
         <div
           className="absolute inset-0 bg-black bg-opacity-50"
           onClick={() => setIsOpen(false)}

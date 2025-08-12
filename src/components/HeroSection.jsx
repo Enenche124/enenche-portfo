@@ -57,7 +57,11 @@ const HeroSection = () => {
             </a>
           </motion.div>
 
-          <motion.div custom={4} variants={textVariant} className="hidden lg:block">
+          <motion.div
+            custom={4}
+            variants={textVariant}
+            className="hidden lg:block"
+          >
             <SocialMedialHandle />
           </motion.div>
         </motion.div>
@@ -74,11 +78,21 @@ const HeroSection = () => {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="flex flex-wrap justify-center gap-3 text-sm sm:text-base font-mono"
           >
-            <span className="bg-blue-500 text-white px-3 py-1 rounded-full">React</span>
-            <span className="bg-gray-900 text-white px-3 py-1 rounded-full">Next.js</span>
-            <span className="bg-green-700 text-white px-3 py-1 rounded-full">Node.js</span>
-            <span className="bg-yellow-400 text-black px-3 py-1 rounded-full">JavaScript</span>
-            <span className="bg-blue-700 text-white px-3 py-1 rounded-full">TypeScript</span>
+            <span className="bg-blue-500 text-white px-3 py-1 rounded-full">
+              React
+            </span>
+            <span className="bg-gray-900 text-white px-3 py-1 rounded-full">
+              Next.js
+            </span>
+            <span className="bg-green-700 text-white px-3 py-1 rounded-full">
+              Node.js
+            </span>
+            <span className="bg-yellow-400 text-black px-3 py-1 rounded-full">
+              JavaScript
+            </span>
+            <span className="bg-blue-700 text-white px-3 py-1 rounded-full">
+              TypeScript
+            </span>
           </motion.div>
 
           <motion.div
@@ -87,7 +101,7 @@ const HeroSection = () => {
             className="flex flex-col items-center"
           >
             <img
-              src="my-pic.jpg"
+              src="my-pic.png"
               alt="My Profile"
               className="w-48 h-48 sm:w-72 sm:h-72 lg:w-96 lg:h-96 rounded-full object-cover shadow-[0_0_20px_6px_rgba(37,99,235,0.5)] hover:shadow-[0_0_30px_8px_rgba(37,99,235,0.7)] hover:scale-105 transition duration-500"
             />
@@ -99,9 +113,15 @@ const HeroSection = () => {
             transition={{ type: "spring", stiffness: 100, delay: 0.5 }}
             className="flex flex-wrap justify-center gap-2 text-xl sm:text-2xl font-bold text-stone-300 tracking-wide items-center"
           >
-            <span className="uppercase text-blue-700 text-2xl sm:text-3xl font-serif">Ichukwu</span>
-            <span className="uppercase text-yellow-700 text-3xl sm:text-4xl font-serif">Nicholas</span>
-            <span className="uppercase text-blue-700 text-2xl sm:text-3xl font-serif">Agbo</span>
+            <span className="uppercase text-blue-700 text-2xl sm:text-3xl font-serif">
+              John
+            </span>
+            <span className="uppercase text-yellow-700 text-3xl sm:text-4xl font-serif">
+              Enenche
+            </span>
+            <span className="uppercase text-blue-700 text-2xl sm:text-3xl font-serif">
+              Adah
+            </span>
           </motion.div>
         </motion.div>
       </div>

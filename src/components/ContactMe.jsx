@@ -18,36 +18,41 @@ const ContactMe = () => {
         </h2>
 
         <p className="text-stone-300 max-w-2xl mx-auto text-sm sm:text-base mb-10">
-          Ready to start your next project? Let's discuss how we can bring your ideas to life.
+          Ready to start your next project? Let's discuss how we can bring your
+          ideas to life.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12 max-w-5xl mx-auto">
           <div className="bg-slate-900 p-6 rounded-xl shadow-lg w-full max-w-md mx-auto">
             <div className="flex flex-col justify-center items-center sm:items-start space-y-3">
-              <h3 className="text-lg font-semibold text-blue-400">Contact Information</h3>
+              <h3 className="text-lg font-semibold text-blue-400">
+                Contact Information
+              </h3>
 
               <p className="text-stone-300 flex items-center gap-2 text-center sm:text-left">
                 <FaMapMarkerAlt className="text-blue-400" />
-                No: 12, Epetedo, Lagos
+                No: 4, Isaac Okomor, Lagos
               </p>
 
               <p className="text-stone-300 flex items-center gap-2 text-center sm:text-left">
                 <FaEnvelope className="text-blue-400" />
-                ichukwunicholasagbo@email.com
+                enenchejohn56@email.com
               </p>
 
               <p className="text-stone-300 flex items-center gap-2 text-center sm:text-left">
                 <FaPhoneAlt className="text-blue-400" />
-                +234 705 858 7063
+                +234 8148761419
               </p>
             </div>
           </div>
 
           <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
-            <h3 className="text-lg font-semibold text-blue-400 mb-4">Follow Me</h3>
+            <h3 className="text-lg font-semibold text-blue-400 mb-4">
+              Follow Me
+            </h3>
             <div className="flex flex-wrap justify-center sm:justify-start gap-4">
               <a
-                href="https://github.com/NicholasIchukwuAgbo001"
+                href="https://github.com/Enenche124"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-5 py-3 bg-gray-800 hover:bg-gray-700 text-white rounded-md transition duration-300"
@@ -57,7 +62,7 @@ const ContactMe = () => {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/ichukwu-nicholas-agbo-a43946363" 
+                href="https://www.linkedin.com/in/john-adah-042338339"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-5 py-3 bg-blue-100 hover:bg-blue-200 text-blue-700 rounded-md transition duration-300"
@@ -67,7 +72,7 @@ const ContactMe = () => {
               </a>
 
               <a
-                href="https://x.com/AgboIchukw36207"
+                href="https://x.com/john69153?t=WL4KeNrudpmK5ljmFJW8lw&s=09"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-5 py-3 bg-gray-200 hover:bg-gray-300 text-black rounded-md transition duration-300"
@@ -77,7 +82,7 @@ const ContactMe = () => {
               </a>
 
               <a
-                href="mailto:ichukwunicholasagbo@email.com"
+                href="mailto:enenchejohn56@email.com"
                 className="flex items-center gap-2 px-5 py-3 bg-gray-200 hover:bg-gray-300 text-black rounded-md transition duration-300"
               >
                 <FaEnvelope className="text-xl" />
@@ -85,7 +90,7 @@ const ContactMe = () => {
               </a>
 
               <a
-                href="https://wa.me/2347058705863"
+                href="https://wa.me/2348148761419"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-5 py-3 bg-green-100 hover:bg-green-200 text-green-800 rounded-md transition duration-300"
@@ -110,7 +115,8 @@ const ContactMe = () => {
         <div className="bg-green-100 text-green-800 px-6 py-4 rounded-md max-w-lg mx-auto text-sm text-center">
           <p className="font-semibold">✅ Available for work</p>
           <p>
-            I'm currently available for freelance projects and full-time opportunities.
+            I'm currently available for freelance projects and full-time
+            opportunities.
           </p>
         </div>
       </div>
