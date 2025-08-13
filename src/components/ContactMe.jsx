@@ -36,7 +36,7 @@ const ContactMe = () => {
 
               <p className="text-stone-300 flex items-center gap-2 text-center sm:text-left">
                 <FaEnvelope className="text-blue-400" />
-                enenchejohn56@email.com
+                enenchejohn56@gmail.com
               </p>
 
               <p className="text-stone-300 flex items-center gap-2 text-center sm:text-left">
