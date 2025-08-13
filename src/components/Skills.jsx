@@ -22,9 +22,9 @@ const frontendSkills = [
 
 const dataBaseSkills = [
   { name: "MongoDB", level: 99, color: "bg-emerald-600" },
-  { name: "Firebase", level: 65, color: "bg-yellow-500" },
-  { name: "Supabase", level: 70, color: "bg-lime-500" },
+  { name: "PostgreSQL", level: 90, color: "bg-yellow-500" },
   { name: "MySQL", level: 90, color: "bg-teal-500" },
+  { name: "Supabase", level: 65, color: "bg-lime-500" },
 ];
 
 const hostingSkills = [
