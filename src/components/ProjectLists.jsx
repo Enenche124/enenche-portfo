@@ -31,7 +31,7 @@ const projects = [
     title: "Bank App",
     description:
       "A secure and user-friendly banking application that allows users to register, log in, manage accounts, check balances, transfer funds, and reset passwords. Features include JWT-based authentication, savings account creation, password encryption, email notifications, and integration with a Flutter mobile frontend for a seamless cross-platform experience.",
-    imageUrl: "project-14.jpeg",
+    imageUrl: "project-15.jpeg",
     tags: [],
     codeLink: "https://github.com/Enenche124/advance-banking-system",
   },
