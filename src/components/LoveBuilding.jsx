@@ -25,12 +25,12 @@ const LoveBuilding = () => {
         " Transforming complex business requirements into elegant, working solutions",
     },
 
-    {
-      no: "5",
-      title: "💻 Tech Stack:",
-      description:
-        "☕ Java •🌱 Spring Boot •🐘 PostgreSQL • MongoDB •🐳 Docker •🍃 Maven • Git • REST API Design •🛡 JWT Authentication",
-    },
+    // {
+    //   no: "5",
+    //   title: "💻 Tech Stack:",
+    //   description:
+    //     "☕ Java •🌱 Spring Boot •🐘 PostgreSQL • MongoDB •🐳 Docker •🍃 Maven • Git • REST API Design •🛡 JWT Authentication",
+    // },
   ];
 
   return (

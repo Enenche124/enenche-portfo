@@ -11,12 +11,13 @@ const Mission = () => {
           make a positive impact on society and also crafting digital
           experiences that are not just functional but delightful and accessible
           to everyone.
-          <p className="py-50">
+          <span className="py-50">
+            <br />
             When i'm not coding, you can find me reading books, playing
             keyboard, teaching others, or exploring new technologies. I am
             always eager to learn and grow, and I believe that every challenge
             is an opportunity to improve and innovate.
-          </p>
+          </span>
         </p>
       </div>
       <LoveBuilding />

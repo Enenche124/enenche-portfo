@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 
 const HeroH1 = () => {
-  const lines = ["Building Digital", "Experiences", "That Matter"];
+  // const lines = ["Building Digital", "Experiences", "That Matter"];
+  const lines = ["Designing Robust", "Applications", "That Matter"];
   const [displayedText, setDisplayedText] = useState(["", "", ""]);
   const [lineIndex, setLineIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);

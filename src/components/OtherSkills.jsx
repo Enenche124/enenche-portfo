@@ -4,12 +4,12 @@ const navLists = [
   { label: "Javascript" },
   { label: "HTML" },
   { label: "CSS" },
-  { label: "Sass" },
-  { label: "Webpack" },
+  // { label: "Sass" },
+  // { label: "Webpack" },
   { label: "Vite" },
   { label: "Jest" },
-  { label: "Figma" },
-  { label: "Notion" },
+  // { label: "Figma" },
+  // { label: "Notion" },
 ];
 
 const stats = [

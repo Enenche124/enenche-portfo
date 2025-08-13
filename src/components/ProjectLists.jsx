@@ -2,45 +2,44 @@ import ProjectCard from "./ProjectCards";
 
 const projects = [
   {
-    title: "Hotel Management System",
+    title: "Skill swap africa",
     description:
-      "A full-stack hotel reservation and administration platform featuring secure user authentication, real-time room availability tracking, and an intuitive booking interface. Built with Next.js, Tailwind CSS, and Supabase for seamless performance and scalability.",
-    imageUrl: "project-1.png",
-    tags: ["Next.js", "Tailwind", "Supabase"],
-    demoLink: "https://the-nikos-hotel-website.vercel.app",
-    codeLink:
-      "https://github.com/NicholasIchukwuAgbo001/hotel-management-system.git",
+      "A dynamic skill exchange platform connecting users across Africa to swap expertise and learn new skills. Features secure authentication, user profiles with skills offered/wanted, real-time chat, instant notifications, and a robust system for managing swap requests and reviews. Built to foster community learning and personal growth.",
+    imageUrl: "project-11.png",
+    tags: [],
+    demoLink: "https://skillswap-africa-app.vercel.app/",
+    codeLink: "https://github.com/Enenche124/skill-swap-africa",
   },
   {
-    title: "Pizza Ordering App",
+    title: "Student Course Management System",
     description:
-      "An interactive pizza ordering platform featuring customizable toppings, dynamic cart management, and real-time order tracking. Built with React and Redux Toolkit, it includes Naira currency formatting, responsive Tailwind CSS design, and an intuitive checkout flow for a seamless user experience.",
-    imageUrl: "project-4.png",
-    tags: ["React", "Tailwind", "Redux Toolkit", "JavaScript"],
-    demoLink: "https://nikki-s-home-made-pizza.vercel.app/", 
-    codeLink: "https://github.com/NicholasIchukwuAgbo001/Nikki-s-home-made-pizza.git",
+      "A role-based course management platform for admins, lecturers, and students. Features include course creation and lecturer assignment (admin), student enrollment viewing and scoring (lecturers), and grade, position, and result viewing (students). Fully responsive design for seamless access across devices.",
+    imageUrl: "project-12.png",
+    tags: [],
+    demoLink: "https://frontend-student-one.vercel.app/login.html",
+    codeLink: "",
   },
   {
-    title: "E-commerce Website",
+    title: "Library Management System",
     description:
-    "A modern, responsive e-commerce platform featuring dynamic product listings, integrated shopping cart functionality, and advanced Redux Toolkit state management. Built with a sleek Tailwind CSS interface for smooth browsing, it offers optimized performance, mobile-friendly design, and a scalable architecture ready for future expansion.",
-    imageUrl: "project-2.png",
-    tags: ["React", "Tailwind", "Redux Toolkit"],
-    codeLink: "https://github.com/NicholasIchukwuAgbo001/e-commerce-app.git",
+      "A comprehensive library management platform. It supports user and admin authentication, book catalog management, borrowing and return tracking, fine calculation, and payment processing. Designed with a clean and responsive UI for seamless user experience, and a scalable backend architecture ready for database and API integration.",
+    imageUrl: "project-13.png",
+    tags: [],
+    codeLink: "https://github.com/Enenche124/apostle-library-management",
   },
   {
-    title: "World-Wise System",
+    title: "Bank App",
     description:
-    "A travel tracking web app that allows users to log cities they’ve visited, attach personal notes, and record visit dates. Features an interactive world map for visualizing journeys, responsive design with Tailwind CSS, and state management using Redux Toolkit for smooth performance and seamless user experience.",
-    imageUrl: "project-3.png",
-    tags: ["React", "Tailwind", "Redux Toolkit", "Java"],
-    codeLink: "https://github.com/NicholasIchukwuAgbo001/world-wise.git",
+      "A secure and user-friendly banking application that allows users to register, log in, manage accounts, check balances, transfer funds, and reset passwords. Features include JWT-based authentication, savings account creation, password encryption, email notifications, and integration with a Flutter mobile frontend for a seamless cross-platform experience.",
+    imageUrl: "project-14.jpeg",
+    tags: [],
+    codeLink: "https://github.com/Enenche124/advance-banking-system",
   },
 ];
 
 const ProjectLists = () => {
   return (
-    <section className="px-5 text-white">
+    <section className="px-5 text-white pt-16">
       <div className="text-center pb-10">
         <h2 className="font-bold mb-3 text-4xl text-blue-500">
           Recents <span className="text-white">Projects</span>

@@ -24,9 +24,9 @@ const HeroSection = () => {
           animate="visible"
           className="w-full lg:max-w-xl space-y-8 text-center lg:text-left"
         >
-          <motion.h2 custom={1} variants={textVariant}>
+          <motion.div custom={1} variants={textVariant}>
             <HeroH1 />
-          </motion.h2>
+          </motion.div>
 
           <motion.p
             custom={2}

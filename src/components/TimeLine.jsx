@@ -5,35 +5,44 @@ const TimeLine = () => {
       title: "Started My Coding Journey",
       taught: "Self-taught",
       description:
-        "Began learning HTML, CSS, and JavaScript through online tutorial(Udeme) and building small projects.",
+        "Began learning HTML, CSS, and JavaScript through online tutorial(Udemy) and building small projects.",
     },
     {
       year: "2024",
       title: "Dived Into Backend Development",
-      taught: "Self-taught",
+      taught: "",
       description:
         "Started learning Java and Python, explored API development with Spring Boot and FastAPI, implemented authentication with JWT, and worked with relational and NoSQL databases like PostgreSQL and MongoDB. Built several scalable backend services, integrated third-party APIs, and focused on writing clean, maintainable server-side code.",
     },
+    // {
+    //   year: "2024",
+    //   title: "Built Real Projects",
+    //   taught: " ",
+    //   description:
+    //     "Worked on full-stack applications, and strengthened collaboration and version control skills using Git and GitHub. Focused on writing clean, maintainable code and working in team-based environments.",
+    // },
     {
       year: "2024",
-      title: "Built Real Projects",
-      taught: "Self-led & Open Source Contributions",
-      description:
-        "Worked on full-stack applications, contributed to open-source projects, and strengthened collaboration and version control skills using Git and GitHub. Focused on writing clean, maintainable code and working in team-based environments.",
-    },
-    {
-      year: "2025",
       title: "Becoming a Software Engineer",
       taught: "Semicolon Africa",
       description:
-        "Currently building scalable applications, contributing to meaningful projects, and continually learning.",
+        "Building scalable applications, contributing to impactful projects, and continuously expanding my skills.",
     },
+
+    {
+      year: "2025",
+      title: "Business Management",
+      taught: "Henley Business School (UK)",
+      description:
+        "Completed a comprehensive program in business management, gaining expertise in leadership, strategic planning, financial management, and organizational development. Developed skills in problem-solving, effective communication, and decision-making while working on real-world business case studies and collaborative projects, preparing me for impactful roles in business leadership and management.",
+    },
+
     {
       year: "2025",
       title: "Computer Science Degree",
       taught: "Semicolon Africa",
       description:
-        "Graduated with honors from Semicolon Africa, where I specialized in web technologies and software engineering. Gained in-depth knowledge of full-stack development, algorithms, system design, and agile methodologies. Built real-world projects, collaborated with teams, and developed strong problem-solving and communication skills that prepared me for professional software engineering roles.",
+        "Graduated with honors from Semicolon Africa. Gained in-depth knowledge of software engineering, algorithms, system design, and agile methodologies. Completed real-world projects, collaborated effectively with teams, and developed strong problem-solving and communication skills that prepared me for professional roles in software engineering.",
     },
   ];
 
